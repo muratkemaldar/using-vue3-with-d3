@@ -1,24 +1,12 @@
 # using-vue3-with-d3
 
-## Project setup
-```
-npm install
-```
+A small example on how to create a responsive chart component with D3 and Vue 3 (Composition API).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Components
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- **App.vue**
+- **ResponsiveLineChart.vue**
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Hooks
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **resizeObserver.js** (for observing width / height of an element via ResizeObserver API)
