@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <h1>Using Vue 3 (Composition API) with D3</h1> -->
+    <h1>Using Vue 3 (Composition API) with D3</h1>
     <responsive-line-chart :data="data" />
     <div class="buttons">
       <button @click="addData">Add data</button>
